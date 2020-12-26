@@ -1,0 +1,18 @@
+set 5 8 //второй аргумент set - номер числа Фибоначчи 
+set 0 0 
+set 1 1
+set 2 1
+set 4 0
+goIfEqual 4 5 43
+add 0 1 0 
+add 4 2 4
+goIfEqual 4 5 50
+add 0 1 1 
+add 4 2 4 
+goIfNonEqual 4 5 15 
+output 0 
+goIfEqual 4 5 52
+exit 
+output 1
+goIfEqual 4 5 52
+exit 
