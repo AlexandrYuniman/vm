@@ -1,0 +1,17 @@
+﻿set 1 0 //второй аргумент set - число, факториал которого нужно найти
+set 2 1 
+set 3 1
+set 4 0 
+set 5 1 
+goIfEqual 1 4 46
+goIfEqual 1 2 39
+add 2 3 2
+add 4 5 6
+multiply 6 2 5
+goIfNonEqual 1 2 19
+output 5
+goIfEqual 1 2 45
+exit
+output 2
+goIfEqual 1 4 52
+exit
